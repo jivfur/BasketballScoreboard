@@ -1,6 +1,6 @@
 # Interactive Basketball Scoreboard (HTML, CSS, & JavaScript)
 
-[![Scoreboard Preview](YOUR_IMAGE_URL_HERE)](YOUR_IMAGE_URL_HERE)
+[![Scoreboard Preview](assets/images/scoreboard.png)](assets/images/scoreboard.png)
 This project provides an interactive basketball scoreboard created using HTML, CSS, and JavaScript. It displays scores for two teams, the current period, and team fouls. Users can interact with the scoreboard using the provided buttons to update scores and control the period.
 
 ## Features
