@@ -9,30 +9,31 @@
 <body>
     <div class="scoreboard">
         <div class="period-controls">
-            <button class="reset-period">🔄</button>
-            <button class="update-period">▶️</button>
+            <button class="reset-period" onClick="resetPeriod()">🔄</button>
+            <button class="update-period" onClick="updatePeriod()">▶️</button>
         </div>
-        <div class="period">1st Quarter</div>
+        <div class="period" id="period-el">1st Quarter</div>
         <div class="teams">
             <div class="team">
-                <div class="score">0</div>
+                <div id="score1-el" class="score" >0</div>
                 <div class="controls">
-                    <button class="add-1">+1</button>
-                    <button class="add-2">+2</button>
-                    <button class="add-3">+3</button>
-                    <button class="reset">Reset</button>
+                    <button class="add-1" onClick="add(1,1)">+1</button>
+                    <button class="add-2" onClick="add(1,2)">+2</button>
+                    <button class="add-3" onClick="add(1,3)">+3</button>
+                    <button class="reset" onClick="reset()">Reset</button>
                 </div>
             </div>
             <div class="team">
-                <div class="score">0</div>
+                <div id="score2-el" class="score">0</div>
                 <div class="controls">
-                    <button class="add-1">+1</button>
-                    <button class="add-2">+2</button>
-                    <button class="add-3">+3</button>
-                    <button class="reset">Reset</button>
+                    <button class="add-1" onClick="add(2,1)" >+1</button>
+                    <button class="add-2" onClick="add(2,2)" >+2</button>
+                    <button class="add-3" onClick="add(2,3)" >+3</button>
+                    <button class="reset" onClick="reset()">Reset</button>
                 </div>
             </div>
         </div>
     </div>
 </body>
+<script src="index.js"></script>
 </html>
